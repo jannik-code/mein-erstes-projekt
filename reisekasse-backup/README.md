@@ -6,5 +6,6 @@ Tägliche Sicherung der gemeinsamen Ausgabenliste aus der Reisekasse-App
 - `reisekasse.csv` – lesbare Liste aller Einträge (Semikolon-getrennt, öffnet in Excel/Numbers)
 - `reisekasse.json` – vollständige Rohdaten, damit sich die App bei Bedarf wiederherstellen lässt
 - `app-quelltext.html` – der Quelltext der App selbst
+- `make_backup.py` – erzeugt die Dateien oben und die Tabelle für die Notion-Seite „Reisekasse Backup“
 
 Jeder Tag ist ein eigener Commit, ältere Stände findet man in der Git-Historie.

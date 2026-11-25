@@ -1,12 +1,12 @@
-﻿Datum;Was;Betrag;Währung;Kurs (THB je €);Bezahlt von;Aufteilung;Kategorie;ID
-2026-04-09;Flug;1371,28;EUR;38;Beide je Hälfte;50/50;transport;vorab-flug-april
+﻿Datum;Was;Betrag;Währung;Kurs;Bezahlt von;Aufteilung;Kategorie;ID
+2026-04-09;Flug;1.371,28;EUR;38;Beide je Hälfte;50/50;transport;vorab-flug-april
 2026-07-14;Flug BKK – Krabi;145,93;EUR;38;Beide je Hälfte;50/50;transport;vorab-flug-bkk-krabi
 2026-07-17;Flug Koh Samui – BKK;206,02;EUR;38;Beide je Hälfte;50/50;transport;vorab-flug-samui-bkk
 2026-09-20;Airbnb Krabi;149,04;EUR;38;Beide je Hälfte;50/50;unterkunft;vorab-airbnb-krabi
 2026-09-20;Airbnb Bangkok;335,83;EUR;38;Beide je Hälfte;50/50;unterkunft;vorab-airbnb-bangkok
 2026-11-15;Airbnb Ko Tao;289,14;EUR;38;Beide je Hälfte;50/50;unterkunft;vorab-airbnb-kotao
-2026-11-21;E-Sim;48,8;THB;;Jannik;50/50;einkauf;ojomjonxmzmtabczohm6
-2026-11-21;Ausgleich;24,4;THB;;Partner·in;nur für den anderen;ausgleich;f7zc2dy6j6r2fiwihh0b
+2026-11-21;E-Sim;48,80;THB;;Jannik;50/50;einkauf;ojomjonxmzmtabczohm6
+2026-11-21;Ausgleich;24,40;THB;;Partner·in;nur für den anderen;ausgleich;f7zc2dy6j6r2fiwihh0b
 2026-11-22;Zug;80;THB;;Partner·in;50/50;transport;u216l6f0kg2gqb3jbb0p
 2026-11-22;Mittagessen;150;THB;;Partner·in;50/50;essen;t7m8v60wy2oc6iovx1zh
 2026-11-22;7eleven;45;THB;;Partner·in;50/50;essen;aub82l8kyrka9yzbofet
@@ -30,4 +30,4 @@
 2026-11-24;Essen;120;THB;;Jannik;50/50;essen;rjta1mlfa0jhsm7ffq16
 2026-11-24;Wasser;60;THB;;Partner·in;50/50;essen;pj45ivw39zy2ugbkapah
 2026-11-25;Gym;700;THB;;Jannik;50/50;aktivitaet;kcm24nfft6rthdyr47u2
-2026-11-25;Muay Thai;2800;THB;;Partner·in;50/50;aktivitaet;5k04u0z3du0mmic8n9zt
+2026-11-25;Muay Thai;2.800;THB;;Partner·in;50/50;aktivitaet;5k04u0z3du0mmic8n9zt

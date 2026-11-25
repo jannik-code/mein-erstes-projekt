@@ -679,6 +679,15 @@ dialog form { padding: 20px; display: flex; flex-direction: column; gap: 14px; }
     me = Number(b.dataset.me); lsSet("reisekasse.me", String(me));
     if (!editingId) form.payer = me;
     renderSegs(); renderFormMode();
+    saveMe();
+  }
+  // Wem das Handy gehört, liegt pro Person im privaten Bereich der Datenbank
+  // (data/users/<id>/prefs), weil der Browser-Speicher im Artifact nicht zuverlässig bleibt.
+  let prefsRef = null, savingMe = Promise.resolve();
+  function saveMe() {
+    if (!prefsRef || me === null) return;
+    const value = me;
+    savingMe = savingMe.then(() => prefsRef.set({ me: value })).catch(() => {});
   }
   $("meSeg").addEventListener("click", pickMe);
   $("whoSeg").addEventListener("click", pickMe);
@@ -712,6 +721,18 @@ dialog form { padding: 20px; display: flex; flex-direction: column; gap: 14px; }
     }
     const user = await window.claude.use("user");
     if (user) {
+      try {
+        const uid = await user.id();
+        if (uid) {
+          prefsRef = db.doc("data/users/" + uid + "/prefs");
+          const snap = await prefsRef.get();
+          const stored = snap.exists ? snap.data().me : undefined;
+          if (stored === 0 || stored === 1) {
+            if (me !== stored) { me = stored; lsSet("reisekasse.me", String(me)); if (!editingId) form.payer = me; }
+            renderSegs(); renderFormMode();
+          } else if (me !== null) saveMe();   // lokal gemerkte Auswahl einmalig übernehmen
+        }
+      } catch {}
       try { const w = await user.can("data.write"); if (w === false) { canWrite = false; applyReadOnly(); status("Nur-Lesen: Bitte den Besitzer, dich als Mitwirkende·n freizugeben."); } } catch {}
     }
 
