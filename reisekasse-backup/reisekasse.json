@@ -1,6 +1,6 @@
 {
  "artifact": "https://claude.ai/artifact/66AYdbAHJG4f9fHoyAtmoR",
- "stand": "2026-11-25",
+ "stand": "2026-11-26",
  "settings": null,
  "expenses": [
   {
@@ -392,6 +392,114 @@
    "payer": 1,
    "split": "half",
    "id": "5k04u0z3du0mmic8n9zt"
+  },
+  {
+   "amount": 260,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795586354846,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Shake",
+   "payer": 0,
+   "split": "half",
+   "id": "s0s75lwgv9evxo8w1907"
+  },
+  {
+   "amount": 500,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795592951463,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Cafe Railay",
+   "payer": 1,
+   "split": "half",
+   "id": "2aiijrxkvrj9m8117rdh"
+  },
+  {
+   "amount": 900,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795595905065,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Mittagessen Railay",
+   "payer": 0,
+   "split": "half",
+   "id": "nqy32bn4duwzt4ctw1ub"
+  },
+  {
+   "amount": 400,
+   "cat": "aktivitaet",
+   "catManual": true,
+   "createdAt": 1795597545253,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Diamond Cave",
+   "payer": 1,
+   "split": "half",
+   "id": "gs9besnpnutkxwxmu2b9"
+  },
+  {
+   "amount": 160,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795602445192,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Sushi",
+   "payer": 0,
+   "split": "half",
+   "id": "1ktv66de7injehhxh0nb"
+  },
+  {
+   "amount": 500,
+   "cat": "aktivitaet",
+   "catManual": false,
+   "createdAt": 1795602455160,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Massage",
+   "payer": 1,
+   "split": "half",
+   "id": "gqiv9rtc9iplzu31czw5"
+  },
+  {
+   "amount": 200,
+   "cat": "transport",
+   "catManual": false,
+   "createdAt": 1795609245799,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Boot",
+   "payer": 1,
+   "split": "half",
+   "id": "eprj6rc7xmmbqfcdxspo"
+  },
+  {
+   "amount": 440,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795613728186,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "Abendessen",
+   "payer": 0,
+   "split": "half",
+   "id": "qq9lmq1ftzy14cew3s3t"
+  },
+  {
+   "amount": 90,
+   "cat": "einkauf",
+   "catManual": true,
+   "createdAt": 1795614434192,
+   "cur": "L",
+   "date": "2026-11-25",
+   "note": "7 Eleven",
+   "payer": 1,
+   "split": "half",
+   "id": "i1goj23tm52ctpmwcp5f"
   }
  ]
 }
