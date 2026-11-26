@@ -1,6 +1,6 @@
 {
  "artifact": "https://claude.ai/artifact/66AYdbAHJG4f9fHoyAtmoR",
- "stand": "2026-11-26",
+ "stand": "2026-11-27",
  "settings": null,
  "expenses": [
   {
@@ -500,6 +500,78 @@
    "payer": 1,
    "split": "half",
    "id": "i1goj23tm52ctpmwcp5f"
+  },
+  {
+   "amount": 170,
+   "cat": "einkauf",
+   "catManual": true,
+   "createdAt": 1795669329217,
+   "cur": "L",
+   "date": "2026-11-26",
+   "note": "7 Eleven",
+   "payer": 0,
+   "split": "half",
+   "id": "lnqwdggivolgdu67drrd"
+  },
+  {
+   "amount": 520,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795679351769,
+   "cur": "L",
+   "date": "2026-11-26",
+   "note": "Mittagessen",
+   "payer": 0,
+   "split": "half",
+   "id": "dsaahtlucit5b0xxy8se"
+  },
+  {
+   "amount": 730,
+   "cat": "aktivitaet",
+   "catManual": true,
+   "createdAt": 1795688175092,
+   "cur": "L",
+   "date": "2026-11-26",
+   "note": "Gym",
+   "payer": 0,
+   "split": "half",
+   "id": "kjvjqo14qsp9pc38gr7w"
+  },
+  {
+   "amount": 800,
+   "cat": "essen",
+   "catManual": true,
+   "createdAt": 1795705680920,
+   "cur": "L",
+   "date": "2026-11-26",
+   "note": "Mexikaner",
+   "payer": 0,
+   "split": "half",
+   "id": "5cnslrdrzs4nqqsx324f"
+  },
+  {
+   "amount": 350,
+   "cat": "essen",
+   "catManual": true,
+   "createdAt": 1795709721736,
+   "cur": "L",
+   "date": "2026-11-26",
+   "note": "Inder",
+   "payer": 0,
+   "split": "half",
+   "id": "rcnt6rv4m1fjjwojgtmu"
+  },
+  {
+   "amount": 600,
+   "cat": "sonst",
+   "catManual": true,
+   "createdAt": 1795709747533,
+   "cur": "L",
+   "date": "2026-11-26",
+   "note": "Ganja",
+   "payer": 0,
+   "split": "other",
+   "id": "s4n85f1koy1218s0rzl6"
   }
  ]
 }
