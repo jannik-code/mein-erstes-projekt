@@ -1,6 +1,6 @@
 {
  "artifact": "https://claude.ai/artifact/66AYdbAHJG4f9fHoyAtmoR",
- "stand": "2026-11-27",
+ "stand": "2026-11-28",
  "settings": null,
  "expenses": [
   {
@@ -572,6 +572,78 @@
    "payer": 0,
    "split": "other",
    "id": "s4n85f1koy1218s0rzl6"
+  },
+  {
+   "amount": 100,
+   "cat": "einkauf",
+   "catManual": true,
+   "createdAt": 1795741744730,
+   "cur": "L",
+   "date": "2026-11-27",
+   "note": "7 eleven",
+   "payer": 0,
+   "split": "half",
+   "id": "bsfgp4hkyptnn5jxx0ah"
+  },
+  {
+   "amount": 2600,
+   "cat": "transport",
+   "catManual": true,
+   "createdAt": 1795752457924,
+   "cur": "L",
+   "date": "2026-11-27",
+   "note": "Bow Ehrenfrau",
+   "payer": 1,
+   "split": "half",
+   "id": "tl94iwz0lkqeydi746v4"
+  },
+  {
+   "amount": 520,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795759544332,
+   "cur": "L",
+   "date": "2026-11-27",
+   "note": "Mittagessen",
+   "payer": 1,
+   "split": "half",
+   "id": "25cv28d4bne97wu70gu9"
+  },
+  {
+   "amount": 1000,
+   "cat": "aktivitaet",
+   "catManual": false,
+   "createdAt": 1795778188537,
+   "cur": "L",
+   "date": "2026-11-27",
+   "note": "Massage",
+   "payer": 1,
+   "split": "half",
+   "id": "38ciojjzpha14aghbpkt"
+  },
+  {
+   "amount": 100,
+   "cat": "essen",
+   "catManual": false,
+   "createdAt": 1795785705620,
+   "cur": "L",
+   "date": "2026-11-27",
+   "note": "Pizza",
+   "payer": 1,
+   "split": "half",
+   "id": "14j1ypq7t0yyny1csyfs"
+  },
+  {
+   "amount": 60,
+   "cat": "essen",
+   "catManual": true,
+   "createdAt": 1795786166486,
+   "cur": "L",
+   "date": "2026-11-27",
+   "note": "Spieße",
+   "payer": 1,
+   "split": "half",
+   "id": "yb2s76ddipawit38tr5g"
   }
  ]
 }
